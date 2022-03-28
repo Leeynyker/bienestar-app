@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap");
+:root {
+  --general-font: "Inter", sans-serif;
+  --text-font: "Mulish", sans-serif;
+  --dark: #353a40;
+  --dark-hover: #333333;
+  --white: #ffffff;
+  --white-light: #ececec;
+  --white-dark: #bebebe;
+  --white-bg1: #f0f0f0;
+  --white-bg2: #fafafa;
+  --white-bg3: #f6f6f6;
+  --gray-b1: #bdbdbd;
+  --check: #5900ff;
+  --text-dark: #222222;
+  --text-medium: #3b3b3b;
+  --critica: #e73c3c;
+  --alta: #e67e22;
+  --media: #f1c80f;
+  --baja: #2ecc71;
+  --abiertas: #ec2929;
+  --remediadas: #39d439;
+  --blue-outl: #88d9ff;
+  --btrap-primary: #007bff;
+  --btrap-hprimary: #419dff;
+  --cancel-color: #ac0202;
+  --hovercancel-color: #ff0000;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--general-font);
+}
+html{
+  background-color: var(--white-light);
+}
